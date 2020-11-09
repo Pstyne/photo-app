@@ -15,8 +15,12 @@
   }
 }
   
-.logout {
-  padding-left: 0;
+.nav {
+  .logout {
+    a {
+      padding: 10px;
+    }
+  }
 }
 
 .nav.navbar-right {
