@@ -1,4 +1,4 @@
-$(document).on("ready", () => {
+$(document).on("turbolinks:load", () => {
   var show_error, stripeResponseHandler, submitHandler;
 
   submitHandler = (e) => {
